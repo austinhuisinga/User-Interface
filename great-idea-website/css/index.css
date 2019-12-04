@@ -62,19 +62,21 @@ h1, h2, h3, h4, h5 {
 	letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+nav {
+	text-align: center;
+}
 nav a {
   color: gray;
   text-decoration: none;
   display: inline-block;
   margin: 0 1%;
-  padding: 20px;
+  padding: 2%;
+
 }
 
 .head-2 {
 	display: inline-block;
-	padding: 10% 8% 10% 10%;
-	
+	padding: 10% 8% 5% 10%;
 }
 
 .head-2 h1 {
@@ -83,8 +85,13 @@ nav a {
 
 }
 
-div.logo {
-	
+ .head-img {
+	 vertical-align: bottom;
+}
+
+.logo {
+	padding-left: 5%;
+	vertical-align: middle;
 }
 
 .head-2 a {
