@@ -113,7 +113,7 @@ nav a {
 	border-top: 1px solid;
 	padding-top: 2.5%;
 	margin: 5%;
-
+	margin-bottom: 8%;
 }
 
 .features {
@@ -126,6 +126,11 @@ nav a {
 	display: inline-block;
 	width: 50%;
 	float: right;
+}
+
+.mid-img {
+	margin: auto;
+	width: 50%;
 }
 
 footer {
