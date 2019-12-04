@@ -58,14 +58,41 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
-body {
-
+nav a {
+  color: gray;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1%;
+  padding: 20px;
 }
 
+.head-2 h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 50px 100px 100px;
+}
+
+div.logo {
+  
+}
+
+.head-2 a {
+  color: black;
+  border: solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px ;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+
+
+footer {
+  text-align: center;
+}
