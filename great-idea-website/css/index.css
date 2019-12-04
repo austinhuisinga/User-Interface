@@ -71,14 +71,20 @@ nav a {
   padding: 20px;
 }
 
+.head-2 {
+	display: inline-block;
+	padding: 10% 8% 10% 10%;
+	
+}
+
 .head-2 h1 {
   font-size: 60px;
   text-transform: uppercase;
-  padding: 50px 100px 100px;
+
 }
 
 div.logo {
-  
+	
 }
 
 .head-2 a {
@@ -91,7 +97,24 @@ div.logo {
   text-decoration: none;
 }
 
+.f-a {
+	border-top: 1px solid;
+	padding-top: 2.5%;
+	margin: 5%;
 
+}
+
+.features {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.about {
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
 
 footer {
   text-align: center;
