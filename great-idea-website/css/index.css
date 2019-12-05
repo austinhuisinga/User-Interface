@@ -58,9 +58,118 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
     margin-bottom: 15px;
 }
+nav {
+	text-align: center;
+}
+nav a {
+  color: gray;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1%;
+  padding: 2%;
+}
 
-/* Your code starts here! */
+nav a:hover {
+	animation-name: bg;
+	animation-duration: 750ms;
+	animation-fill-mode: forwards;
+	color: white;
+}
+
+@keyframes bg {
+	100% {
+		background-color:gray;
+	}
+}
+
+.head-2 {
+	display: inline-block;
+	padding: 0% 0% 5% 0%;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.head-2 h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+
+}
+
+ .head-img {
+	 vertical-align: bottom;
+}
+
+.logo {
+	padding-left: 5%;
+	vertical-align: middle;
+}
+
+.head-2 a {
+  color: black;
+  border: solid 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px ;
+  padding-right: 40px;
+  margin-top: 10px;
+  text-decoration: none;
+  line-height: 10px;
+}
+
+.f-a {
+	border-top: 1px solid;
+	padding-top: 2.5%;
+	margin: 5%;
+	display: inline-block;
+}
+
+.features {
+
+	width: 50%;
+	float: left;
+}
+
+.about {
+
+	width: 50%;
+	float: right;
+}
+
+.mid-img {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.s-p-v {
+	margin: 5%;
+}
+
+.services {
+	width: 33%;
+	display: inline-block;
+}
+
+.product {
+	width: 33%;
+	display: inline-block;
+}
+
+.vision {
+	width: 33%;
+	display: inline-block;
+}
+
+.contact {
+	margin: 5%;
+	padding-top: 3%;
+	border-top: 1px solid black;
+}
+
+footer {
+  text-align: center;
+}
