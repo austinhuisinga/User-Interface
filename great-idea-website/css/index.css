@@ -71,7 +71,19 @@ nav a {
   display: inline-block;
   margin: 0 1%;
   padding: 2%;
+}
 
+nav a:hover {
+	animation-name: bg;
+	animation-duration: 750ms;
+	animation-fill-mode: forwards;
+	color: white;
+}
+
+@keyframes bg {
+	100% {
+		background-color:gray;
+	}
 }
 
 .head-2 {
@@ -129,7 +141,7 @@ nav a {
 }
 
 .mid-img {
-	margin: auto;
+	margin: 0 auto;
 	width: 50%;
 }
 
