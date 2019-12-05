@@ -135,26 +135,27 @@ nav a {
 
 .s-p-v {
 	margin: 5%;
-	margin-bottom: 8%;
-	
 }
 
 .services {
 	width: 33%;
 	display: inline-block;
-	
 }
 
 .product {
 	width: 33%;
 	display: inline-block;
-	
 }
 
 .vision {
 	width: 33%;
 	display: inline-block;
-	
+}
+
+.contact {
+	margin: 5%;
+	padding-top: 3%;
+	border-top: 1px solid black;
 }
 
 footer {
