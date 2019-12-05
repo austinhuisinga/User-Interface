@@ -113,17 +113,17 @@ nav a {
 	border-top: 1px solid;
 	padding-top: 2.5%;
 	margin: 5%;
-	margin-bottom: 8%;
+	display: inline-block;
 }
 
 .features {
-	display: inline-block;
+
 	width: 50%;
 	float: left;
 }
 
 .about {
-	display: inline-block;
+
 	width: 50%;
 	float: right;
 }
@@ -131,6 +131,30 @@ nav a {
 .mid-img {
 	margin: auto;
 	width: 50%;
+}
+
+.s-p-v {
+	margin: 5%;
+	margin-bottom: 8%;
+	
+}
+
+.services {
+	width: 33%;
+	display: inline-block;
+	
+}
+
+.product {
+	width: 33%;
+	display: inline-block;
+	
+}
+
+.vision {
+	width: 33%;
+	display: inline-block;
+	
 }
 
 footer {
